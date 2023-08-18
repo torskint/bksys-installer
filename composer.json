@@ -2,9 +2,11 @@
     "name": "torskint/laravel-banking-package",
     "description": "Installation automatique.",
     "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "laravel/installer": "^5.0",
-        "torskint/auto-translate": "^1.0"
+        "torskint/auto-translate": "^1.1"
     },
     "scripts": {
         "post-create-project-cmd": [
