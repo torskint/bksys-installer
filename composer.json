@@ -5,6 +5,8 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
+        "laravel/installer": "^5.0",
+        "torskint/auto-translate": "^1.1"
     },
     "scripts": {
         "post-create-project-cmd": [
