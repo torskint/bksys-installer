@@ -5,12 +5,15 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "laravel/installer": "^5.0",
-        "torskint/auto-translate": "^1.1"
+        "php": "^7.3",
+        "laravel/laravel": "^8.0"
     },
     "scripts": {
         "post-create-project-cmd": [
             "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "php install.php"
         ]
     }
 }
