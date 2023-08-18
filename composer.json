@@ -3,7 +3,7 @@
     "description": "Installation automatique.",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "laravel/installer": "^5.0",
         "torskint/auto-translate": "^1.1"
