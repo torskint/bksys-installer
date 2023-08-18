@@ -10,13 +10,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "@php artisan key:generate"
-        ],
-        "create-project": [
-            "composer create-project --prefer-dist laravel/laravel temp-project",
-            "mv temp-project/* temp-project/.* .",
-            "mv temp-project/.gitignore .",
-            "rm -rf temp-project"
+            "sh ./install.sh"
         ]
     }
 }
