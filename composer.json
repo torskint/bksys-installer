@@ -1,0 +1,14 @@
+{
+    "name": "torskint/laravel-banking-package",
+    "description": "Installation automatique.",
+    "type": "project",
+    "require": {
+        "laravel/installer": "^5.0",
+        "torskint/auto-translate": "^1.0"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    }
+}
