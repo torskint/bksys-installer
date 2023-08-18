@@ -2,7 +2,7 @@
 
 echo "Création d'un projet Laravel avec dépendances...\n";
 
-$laravelInstaller 		= 'composer create-project laravel/laravel laravel-banking-package';
+$laravelInstaller 		= 'composer create-project laravel/laravel laravel-banking-package-project';
 $otherPackageInstaller 	= 'composer require torskint/auto-translate';
 
 echo shell_exec($laravelInstaller);
